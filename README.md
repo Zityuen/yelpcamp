@@ -1,5 +1,5 @@
 ## YelpCamp Website
-<p>The website link: https://yelpcampbyzit.herokuapp.com </p>
+<p>The website link: 52.203.90.19 </p>
 <p>This is a website that complemented registering users, posting topics and adding comments to each topic. Also, each user has right to modify their topics and comments and other users cannot do that on topics and comments not belong to them. The whole website design based on the RESTful concept.</p>
 
 <h3>Framework:</h3>
