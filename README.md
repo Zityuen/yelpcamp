@@ -1,4 +1,3 @@
-# YelpCamp Website
 <p>This is a website that complemented registering users, posting topics and adding comments to each topic. Also, each user has right to modify their topics and comments and other users cannot do that on topics and comments not belong to them</p>
 
 <h3>Framework:</h3>
@@ -33,6 +32,14 @@
                 <li>DELETE("/campgrounds/:id"): delete one certain campground which belongs to the current user</li>
             </ul>
         </li>
-        <li>The comments route includes users adding comments to each campground, editing themselves comments and deleting.</li>
+        <li>The comments route includes users adding comments to each campground, editing themselves comments and deleting.
+            <ul>
+                <li>GET("/campgrounds/:id/comments/new"): go to the page that users could add new comment to one certain campground if the user has logged in</li>
+                <li>POST("/campgrounds/:id/comments"): post user's new comment to the one certain campground if the user has logged in</li>
+                <li>GET("/campgrounds/:id/comments/:comment_id/edit"): go the page that the user could edit themselves comment</li>
+                <li>PUT("/campgrounds/:id/comments/:comment_id"): put updated info about one comment that belongs to the current user</li>
+                <li>DELETE("/campgrounds/:id/comments/:comment_id"): delete one certain comment of one certain campground and this comment belongs to the current user</li>
+            </ul>
+        </li>
     </ul> 
 </p>
