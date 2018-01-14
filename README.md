@@ -9,6 +9,8 @@
     <li>Bootstrap</li>
     <li>MongoDB</li>
     <li>body-parser</li>
+    <li>RESTful Design</li>
+    <li>MVC Design</li>
 </ul>
 
 <h3>Details about RESTful Web API:</h3>
